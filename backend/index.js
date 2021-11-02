@@ -6,7 +6,7 @@ import producto from './routes/product.js'
 dotenv.config();
 
 const app = express();
-
+//Comentario
 app.use(express.json());
 app.use(cors());
 app.use("/api/products", producto);
